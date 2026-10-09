@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+  font-family: Arial;
+  background-color: #B0BEC5;
+  text-align: center;
+}
+
+.main{
+    background-color: #E0F7FA; 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%
+    
+    
+}
+h3 a{
+    color: #546e7a;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #263238;
+    text-decoration: underline;
+}
+h3{
+    font-size: 2vw;
+    padding: .25%;
+    
+}
+h1{
+    font-size: 4vw;
+    margin-top: 2%;
+}
+.my_img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2%;
+}
