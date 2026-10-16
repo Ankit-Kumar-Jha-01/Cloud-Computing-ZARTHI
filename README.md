@@ -97,31 +97,6 @@ aws-s3-static-website/
 
 ---
 
-## 📄 Website Source Code
-
-### `index.html`
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Web | Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main">
-        <div class="container">
-            <h3><a href="index.html">Home</a></h3>
-            <h3><a href="about.html">About</a></h3>
-            <h3><a href="contact_us.html">Contact Us</a></h3>
-        </div>
-    </div>
-    <h1>Hii, I am Ankit Kumar Jha</h1>
-    <img class="my_img" src="me.jpeg" alt="Profile Picture">
-</body>
-</html>
-```
 
 ### `about.html`
 ```html
