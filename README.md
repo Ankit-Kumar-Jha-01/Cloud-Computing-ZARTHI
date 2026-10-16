@@ -65,7 +65,7 @@ aws-s3-static-website/
 2. Under **Block public access (bucket settings)**, click **Edit**, uncheck **Block *all* public access**, and confirm changes.
 3. Scroll down to **Bucket policy**, click **Edit**, and paste the following JSON policy to allow public read-only access (`s3:GetObject`):
 
-```json
+```json architecture
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -79,7 +79,7 @@ aws-s3-static-website/
   ]
 }
 ```
-> **Note:** Replace `YOUR-BUCKET-NAME` with your exact AWS S3 bucket name.
+
 
 ### 4. Logging & Versioning Enablement
 1. In **Properties**, enable **Bucket Versioning** to maintain historical states of uploaded objects.
@@ -97,22 +97,6 @@ aws-s3-static-website/
 
 ---
 
-
-## 💻 Local Development Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Ankit-Kumar-Jha-01/aws-s3-static-website.git
-   cd aws-s3-static-website
-   ```
-2. **Run locally:**
-   Open `index.html` directly in your default browser, or serve it using Python:
-   ```bash
-   python -m http.server 8000
-   ```
-   Navigate to `http://localhost:8000` in your web browser.
-
----
 
 ## 🎯 Future Enhancements
 
