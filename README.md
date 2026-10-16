@@ -98,28 +98,6 @@ aws-s3-static-website/
 ---
 
 
-### `contact_us.html`
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="main">
-        <div class="container">
-            <h3><a href="index.html">Home</a></h3>
-            <h3><a href="about.html">About</a></h3>
-            <h3><a href="contact_us.html">Contact Us</a></h3>
-        </div>
-    </div>
-</body>
-</html>
-```
-
 ### `style.css`
 ```css
 * {
